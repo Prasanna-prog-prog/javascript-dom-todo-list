@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="to-do.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+    </head>
+
+    
+    <body>
+        <h1>MY-TO-LIST</h1>
+
+        <div class="Box-1">
+         <label for="taskInput">Enter the task : </label>
+         <input type="text" id="taskInput" placeholder="enter your task">
+         <button id="btn-1">Add Task</button>
+        </div>
+
+         <h2>My Task</h2>
+        <div id="taskContainer">
+           
+        <div class="task-item">
+            <input type="checkbox" id="task" >
+            <label for="task">Learn Dom</label>
+            <button class="btn-2">Delete</button>
+        </div>
+
+         <div class="task-item">
+            <input type="checkbox" id="task" >
+            <label for="task">Learn Javascript</label>
+            <button class="btn-2">Delete</button>
+        </div>
+
+        </div>
+
+        <div class="total">
+            <p id="Total">Total : 3</p>
+            <p id="Completed">Completed : 0</p>
+            <p id="Pending">Pending : 3</p>
+            </div>
+
+
+
+    <script src="to-do.js"></script>
+    </body>
+
+    </html>
